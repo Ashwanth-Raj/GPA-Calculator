@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.course input,
+.course select {
+    padding: 12px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 30%;
+    font-size: 1rem;
+}
+
+.course input:focus,
+.course select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.removeCourseBtn {
+    background-color: #fff;
+    color: #f44336;
+    border: 2px solid #f44336;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.removeCourseBtn:hover {
+    background-color: #f44336;
+    color: white;
+    border-color: #f44336;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#addCourseBtn {
+    background-color: #2196F3;
+}
+
+#addCourseBtn:hover {
+    background-color: #1976D2;
+}
+
+#calculateGPA {
+    background-color: #4CAF50;
+}
+
+#calculateGPA:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
